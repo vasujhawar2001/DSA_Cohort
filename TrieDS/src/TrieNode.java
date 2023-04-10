@@ -7,6 +7,7 @@ public class TrieNode {
 
     private boolean isEnd;
 
+
     public TrieNode() {
         links = new TrieNode[R];
     }
