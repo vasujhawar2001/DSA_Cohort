@@ -1,2 +1,2 @@
 # Contributors
-[Vasu Jhawar](https://github.com/vasujhawar2001)
+- [Vasu Jhawar](https://github.com/vasujhawar2001)
