@@ -16,10 +16,10 @@ This project aims to learn and solve Data Structures And Algorithms and also to 
     │   └── notes                # notes
     └── Contributors.md
     
-> Each directory has `Readme.md` , `notes` directory for handwrittren notes or snippets (if anyone is interested please make sure they are structured enough to understand).
+> Each directory has `Readme.md` , `notes` directory for handwrittren notes or snippets or txt files (if anyone is interested please make sure they are structured enough to understand).
 ### Easy to Understand Manner
 If you face any difficulty or confused, feel free to reach me on the discord channel. @vasu #7222
-> All source code is written in java in code directory. 
+> All source code is written in java in code directory. But you can use any language of your choice just make sure files are structured.
 
 
 # How to Contribute?
