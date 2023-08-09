@@ -11,6 +11,8 @@ This project aims to learn and solve Data Structures And Algorithms and also to 
     ├── Concept_Folder           # Concept Folders
     │   ├── code                 # code directory for java(default)
     │   ├── code-cpp             # cpp
+        ├── code-python          # python (similiarly you can create a directory for the respective language)
+        ├── ....
     │   └── notes                # notes
     └── Contributors.md
     
