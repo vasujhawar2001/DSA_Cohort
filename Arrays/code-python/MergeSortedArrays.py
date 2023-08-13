@@ -1,14 +1,19 @@
-class Solution:
-    def merge_sorted_arrays(arr1, arr2):
-        i = j = 0
-        result = []
-        while i < len(arr1) and j < len(arr2):
-            if arr1[i] < arr2[j]:
-                result.append(arr1[i])
-                i += 1
+# Check out this problem on leetcode at --> https://leetcode.com/problems/merge-sorted-array/
+
+class MergeSortedArrays:
+    def merge(self, nums1, m, nums2, n):
+        p1, p2, p = m - 1, n - 1, m + n - 1
+
+        while p1 >= 0 and p2 >= 0:
+            if nums1[p1] > nums2[p2]:
+                nums1[p] = nums1[p1]
+                p1 -= 1
             else:
-                result.append(arr2[j])
-                j += 1
-        result += arr1[i:]
-        result += arr2[j:]
-        return result
+                nums1[p] = nums2[p2]
+                p2 -= 1
+            p -= 1
+
+        while p2 >= 0:
+            nums1[p] = nums2[p2]
+            p2 -= 1
+            p -= 1
