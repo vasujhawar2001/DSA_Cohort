@@ -1,6 +1,5 @@
 # Important Topics
 
-- [Kunal's notes](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/lectures/17-oop/notes)
 - [Object Oriented Paradigms](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/) `GFG`
 - [Constructors in Java](https://www.geeksforgeeks.org/constructors-in-java/) `GFG`
 - [Constructor chaining in Java](https://www.geeksforgeeks.org/constructor-chaining-java-examples/) `GFG`
