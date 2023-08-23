@@ -1,5 +1,7 @@
 # Latest Questions Asked in Interview
 
-##### Ques1) 
-[Give Permutations of a string containing duplicate characters and should not start with a digit - Online Coding Round](Gouse.java)
+##### Ques1 
+The problem statement was big, but eventually it asked to do this.
+<br>
+[Given a string containing duplicate characters, return all the Permutations of the string which should not start with a digit.](Gouse.java)
 
