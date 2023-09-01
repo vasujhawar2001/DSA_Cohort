@@ -2,10 +2,10 @@
 
 This project aims to learn and solve Data Structures And Algorithms and also to make Opensource contributions. This repository was made for the **NextLeap** community.
 
-## Important Links
+## Important References
 
-- .............................
-- ........................
+- <--link here-->
+- <--edit here-->
 
 ## Project Structure
 > Folder structure and naming conventions for this project.
