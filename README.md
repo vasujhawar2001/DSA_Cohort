@@ -4,10 +4,50 @@ This project aims to learn and solve Data Structures And Algorithms and also to 
 
 ## Important Links
 
-- .............................
-- ........................
+## LinkedList
+- <a href="https://leetcode.com/problems/linked-list-cycle/">Linked List Cycle</a><br/>  
+- <a href="https://leetcode.com/problems/linked-list-cycle-ii/">Linked List Cycle II</a><br/>  
+- <a href="https://leetcode.com/problems/linked-list-cycle-ii/">Linked List Cycle II</a><br/>  
+- <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/">Remove Duplicates From Sorted Linked List</a><br/>  
+- <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/">Remove Duplicates From Sorted Linked List II</a><br/>  
+- <a href="https://leetcode.cāom/problems/add-two-numbers/">Add Two Numbers</a>
+
+## Stack
+- <a href="https://leetcode.com/problems/valid-parentheses/">Valid Parentheses</a><br/>  
+- <a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a><br/>  
+
+ ## Heap, PriorityQueue
+ - <a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/">Kth Largest Element in a Stream</a><br/>  
+ - <a href="https://leetcode.com/problems/top-k-frequent-elements/">Top K Frequent Elements</a><br/>  
+- <a href="https://leetcode.com/problems/find-k-pairs-with-smallest-sums/">Find K Pairs with Smallest Sums</a><br/>  
+
+## HashMap
+- <a href="https://leetcode.com/problems/two-sum/">Two Sum</a><br/>  
+- <a href="https://leetcode.com/problems/group-anagrams/">Group Anagrams</a><br/>  
+- <a href="https://leetcode.com/problems/intersection-of-two-arrays/">Intersection of Two Arrays</a><br/>  
+- <a href="https://leetcode.com/problems/unique-email-addresses/">Unique Email Address</a><br/>  
+- <a href="https://leetcode.com/problems/first-unique-character-in-a-string/">First Unique Charecter in String</a><br/>  
+- <a href="https://leetcode.com/problems/subarray-sum-equals-k/">Subarray Sum Equals K</a><br/>  
+
+## Graph, BFS, DFS
+- <a href="https://leetcode.com/problems/number-of-islands/">Number of Islands</a><br/>  
+- <a href="https://leetcode.com/problems/max-area-of-island/">Max area of Island</a><br/>  
+- <a href="https://www.codingninjas.com/studio/library/count-number-of-connected-components">Number of Connected Components in an undirected Graph</a><br/>  
+- <a href="https://leetcode.com/problems/word-ladder/">Word Ladder</a><br/>  
+
+## Tree, BT, BST
+- <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Maximum Depth of Binary Tree</a><br/>  
+- <a href="https://leetcode.com/problems/minimum-depth-of-binary-tree/">Minimum Depth of Binary Tree</a><br/>  
+- <a href="https://leetcode.com/problems/merge-two-binary-trees/">Merge Twi Binary Trees</a><br/>  
+- <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/">Convert Sorted Array to Binary Search Tree</a><br/>  
+- <a href="https://leetcode.com/problems/path-sum/">Path Sum</a><br/>  
+- <a href="https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal</a><br/>  
+- <a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/">Binary Tree Zigzag Levevl Order Traversal</a><br/>  
+- <a href="https://leetcode.com/problems/validate-binary-search-tree/">Validate Binary Search Tree</a><br/>  
+- <a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">Construct Bianary Tree from Preorder and Inorder Traversal</a><br/>  
 
 ## Project Structure
+
 > Folder structure and naming conventions for this project.
 ### Folder Layout
 
