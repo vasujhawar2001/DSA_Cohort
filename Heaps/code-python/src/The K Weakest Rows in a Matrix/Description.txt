@@ -1,0 +1,47 @@
+""" Leetcode Problem Link """
+https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+
+This Python code defines a class `Solution` that contains a method `kWeakestRows`. This method takes two arguments: a 2D matrix `mat` representing a group of rows, each containing binary values (0 or 1), and an integer `k` indicating the number of weakest rows to return. The goal of the method is to identify the weakest rows based on the number of ones in each row and return their indices.
+
+Here's a step-by-step explanation of the code:
+
+1. `import heapq`: This line imports the `heapq` module, which provides heap-related functions, including `heappush` and `heappop`.
+
+2. `class Solution:`: Defines a class named `Solution`.
+
+3. `def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:`: This is the method definition for `kWeakestRows`. It takes in three arguments:
+   - `self`: Refers to the instance of the class itself.
+   - `mat`: A 2D list (matrix) where each sublist represents a row of binary values.
+   - `k`: An integer representing the number of weakest rows to return.
+   
+4. `min_heap = []`: Initializes an empty list called `min_heap`, which will be used as a min-heap to store tuples containing the count of ones in each row and the index of that row.
+
+5. `ans = []`: Initializes an empty list called `ans`, which will store the indices of the weakest rows.
+
+6. The code then iterates through each row in the matrix `mat` using a loop:
+   - `for i in range(len(mat)):`: This loop iterates through the indices of the rows in the matrix.
+
+7. Inside the loop:
+   - `arr = mat[i]`: Extracts the current row (a list of binary values) from the matrix.
+   - `temp = []`: Initializes an empty list `temp` to store the count of ones and the row index.
+   - `temp.append(self.countOne(arr))`: Appends the count of ones in the current row to `temp` using the `countOne` method defined below.
+   - `temp.append(i)`: Appends the index of the current row to `temp`.
+   - `heapq.heappush(min_heap, temp)`: Pushes the `temp` list onto the `min_heap`, which will maintain the heap property based on the count of ones.
+
+8. After processing all rows, the code enters a `while` loop:
+   - `while(k):`: This loop will execute until the value of `k` becomes 0.
+
+9. Inside the loop:
+   - `res = heapq.heappop(min_heap)`: Pops the smallest element (row with the fewest ones) from the `min_heap`. The smallest element is determined by the count of ones.
+   - `ans.append(res[1])`: Appends the index of the weakest row (extracted from the popped tuple) to the `ans` list.
+   - `k -= 1`: Decrements the value of `k`.
+
+10. Finally, the method returns the list of indices of the weakest rows (`ans`).
+
+11. `def countOne(self, arr):`: This is another method defined within the class to count the number of ones in a given row.
+   - `a = 0`: Initializes a variable `a` to keep track of the count of ones.
+   - The method iterates through each element in the row (`arr`) and increments `a` for each element equal to 1.
+   - The method returns the final count of ones (`a`).
+
+In summary, the code uses a min-heap to keep track of the weakest rows based on the count of ones in each row. It iterates through the matrix, calculates the count of ones for each row, and stores the count along with the row index in the min-heap. Then, it pops the weakest rows from the heap `k` times and returns their indices.
+
