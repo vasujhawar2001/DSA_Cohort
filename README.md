@@ -4,8 +4,9 @@ This project aims to learn and solve Data Structures And Algorithms and also to 
 
 ## Important References
 
-- <--link here-->
-- <--edit here-->
+- https://www.linkedin.com/posts/nancy-agarwall_zero-to-hero-in-dsa-activity-7099614202000023552-ta0X?utm_source=share&utm_medium=member_desktop
+- https://www.linkedin.com/posts/naveen-chandrawanshi-86b976220_interview-questions-ugcPost-7101486311064113152-vd2R?utm_source=share&utm_medium=member_desktop
+- https://www.linkedin.com/posts/soumyadip-chowdhury_python-handwritten-activity-7104312190161031169-DzLz?utm_source=share&utm_medium=member_desktop
 
 ## Project Structure
 > Folder structure and naming conventions for this project.
